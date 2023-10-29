@@ -23,7 +23,7 @@ class Solution {
                     if(len==minLen)
                     {
                         String p=s.substring(i,j+1);
-                        if(p.compareTo(result)<1)
+                        if(p.compareTo(result)<0)
                         {
                             result=p;
                         }
